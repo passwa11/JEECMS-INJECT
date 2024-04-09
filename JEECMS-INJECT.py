@@ -35,7 +35,7 @@ def getToken(url):
     temp = "/thirdParty/bind"
     target = url+temp
     #print("checking url:" + target)
-    proxies = {'http': 'http://127.0.0.1:8099', 'https': 'http://127.0.0.1:8099'}
+    proxies = {'http': 'http://127.0.0.1:8080', 'https': 'http://127.0.0.1:8080'}
     headers = {'Content-Type': 'application/json','User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0','Accept-Language':'en-US,en;q=0.5','Accept-Encoding':'gzip, deflate','X-Requested-With':'XMLHttpRequest','Content-Length':'79'}
 
     data = {"username":random_string_generator(5,chars),"loginWay": 1, "loginType": "QQ", "thirdId": "abcdefg"}
