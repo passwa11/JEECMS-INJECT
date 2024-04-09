@@ -22,7 +22,7 @@ banner ='''
                                                         https://github.com/bigsizeme/                                                        
                                                         '''
 print(banner)
-proxies = {'http': 'http://127.0.0.1:8099', 'https': 'http://127.0.0.1:8099'}
+proxies = {'http': 'http://127.0.0.1:8080', 'https': 'http://127.0.0.1:8080'}
 
 def random_string_generator(str_size, allowed_chars):
     return ''.join(random.choice(allowed_chars) for x in range(str_size))
